@@ -1,0 +1,29 @@
+The lines were pasted to see result:mysql> USE codingtemple;
+
+mysql> SHOW TABLES;
++------------------------+
+| Tables_in_codingtemple |
++------------------------+
+| members                |
+| workoutsessions        |
++------------------------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM Members;
++----+----------+------+
+| id | name     | age  |
++----+----------+------+
+|  1 | Jane Doe |   28 |
++----+----------+------+
+1 row in set (0.00 sec)
+
+mysql> SELECT id, name FROM Members;
++----+----------+
+| id | name     |
++----+----------+
+|  1 | Jane Doe |
++----+----------+
+1 row in set (0.00 sec)
+
+mysql> EXIT;
+Bye
